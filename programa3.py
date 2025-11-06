@@ -1,10 +1,6 @@
 from zipfile import ZipFile
 from xml.etree import ElementTree
 
-# ======================= LECTOR XLSX/CSV =======================
-# Si ya tienes la clase en otro archivo, puedes reemplazar esta sección por:
-#   from TU_ARCHIVO import XLSXtoCSV
-# Asegúrate de que en TU_ARCHIVO la referencia C5 se parsee como: row=int(dígitos), col=letras_a_indice(letras).
 
 class XLSXtoCSV:
     def __init__(self, input_file, output_file=None):
